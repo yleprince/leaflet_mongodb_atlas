@@ -1,0 +1,50 @@
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	background: #454545;
+}
+
+h1 {
+	color: #fff;
+}
+
+#container {
+	margin: auto;
+	width: 90%;
+	display: flex;
+	justify-content: space-between;
+	height: 80vh;
+}
+
+#map {
+	flex-basis: 66%;
+	border-radius: 0.2em;
+}
+
+.user_message {
+	color: #fff;
+}
+
+#panel {
+	flex-basis: 30%;
+	background: #404040;
+/*	opacity: 0.5;*/
+	border-radius: 0.2em;
+	display: flex;
+	flex-direction: column;
+}
+
+.btn {
+	border: none;
+	margin: auto;
+	/*width: 50%;*/
+	padding: .7em 2em;
+	color: #fff;
+	background-color: #0dc140;
+}
+
+.btn:hover {
+	color: #0dc140;
+	border: 1px solid #0dc140;
+	background-color: #fff;	
+}
